@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -214,6 +218,8 @@ nav {
 }
 
 .productImg {
+  margin-top: 64px;
+  margin-left: 64px;
   width: 50%;
 }
 
@@ -256,7 +262,7 @@ nav {
 }
 
 .color:last-child {
-  background-color: gray;
+  background-color: rgb(39, 39, 196);
 }
 
 .size {
@@ -265,6 +271,11 @@ nav {
   margin-right: 10px;
   cursor: pointer;
   font-size: 20px;
+}
+
+.size:hover {
+  background-color: black;
+  color: white;
 }
 
 .productButton {
