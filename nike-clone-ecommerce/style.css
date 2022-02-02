@@ -449,4 +449,83 @@ label {
 
 .newSeasonImg {
   width: 100%;
+  height: 100%;
+}
+
+footer {
+  display: flex;
+}
+
+.footerLeft {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 48px;
+}
+
+.footerMenuTitle {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.footerMenuList {
+  list-style-type: none;
+}
+
+.footerMenuListItem {
+  margin-bottom: 12px;
+  color: gray;
+  cursor: pointer;
+}
+
+.footerRight {
+  text-align: center;
+  flex: 1;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerRightMenuMail {
+  height: 28px;
+}
+
+.footerRightMenuTitle {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.mailInput {
+  height: 100%;
+  padding: 4px;
+}
+
+.subscribeButton {
+  cursor: pointer;
+  height: 100%;
+  padding: 4px 16px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.subscribeButton:hover {
+  background-color: rgb(44, 44, 44);
+}
+
+.footerIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.footerIcon {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+
+.copyright {
+  font-weight: 300;
 }
