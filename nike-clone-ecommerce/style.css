@@ -45,7 +45,6 @@ nav {
 .limitedOffer {
   cursor: pointer;
   font-size: 20px;
-  border-bottom: 2px solid wheat;
 }
 
 .navBottom {
@@ -128,7 +127,7 @@ nav {
   top: 50%;
   font-size: 30px;
   font-weight: 700;
-  padding: 10px 20px;
+  padding: 12px 20px;
   border: none;
   color: white;
   background-color: black;
@@ -281,7 +280,7 @@ nav {
 .productButton {
   display: block;
   margin-left: auto;
-  padding: 10px 20px;
+  padding: 12px 20px;
   background-color: black;
   color: white;
   cursor: pointer;
@@ -391,4 +390,63 @@ label {
 
 .close:hover {
   color: darkgray;
+}
+
+.gallery {
+  background-color: whitesmoke;
+  display: flex;
+}
+
+.galleryItem {
+  padding: 32px;
+  flex: 1;
+}
+
+.galleryTitle {
+  text-align: center;
+}
+
+.galleryImg {
+  object-fit: cover;
+  width: 100%;
+}
+
+.newSeason {
+  display: flex;
+}
+
+.newSeasonItem {
+  flex: 1;
+}
+
+.newSeasonItem:nth-child(2) {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.newSeasonItem:nth-child(2) > * {
+  margin-bottom: 32px;
+}
+
+.newSeasonButton {
+  border: none;
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.newSeasonButton:hover {
+  text-decoration: underline;
+}
+
+.newSeasonImg {
+  width: 100%;
 }
